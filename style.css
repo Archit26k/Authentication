@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.4),rgba(0 , 0 , 0 , 0.4)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.login_pg{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.login_pg .head{
+    margin-bottom: 70px;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to right , #ff105f , #ffad06);
+    justify-content: center;
+}
+.form{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition:.5s;
+}
+.email{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 70px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: red;
+    background: transparent;
+
+}
+.btn{
+    width: 110px;
+    height: 50px;
+    background: linear-gradient(to right , #ff105f , #ffad06);
+}
